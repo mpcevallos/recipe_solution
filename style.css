@@ -135,6 +135,7 @@ ul.custom-list-brown li::marker {
 
 .container {
   width: 850px;
+  min-height: 1700px;
   border-radius: 10px;
   background-color: var(--white);
   margin: 30px auto;
