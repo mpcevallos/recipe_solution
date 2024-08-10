@@ -1,0 +1,207 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Contenedor */
+  --white: hsl(0, 0%, 100%);
+
+  /* background-color */
+  --stone100: hsl(30, 54%, 90%);
+
+  --stone150: hsl(30, 18%, 87%);
+  --stone600: hsl(30, 10%, 34%);
+
+  /* h1 */
+  --stone900: hsl(24, 5%, 18%);
+
+  /* h2 */
+  /* ul.custom-list-brown li::marker */
+  --brown800: hsl(14, 45%, 36%);
+
+  /* ul.custom-list li::marker */
+  --rose800: hsl(332, 51%, 32%);
+  --rose50: hsl(330, 100%, 98%);
+}
+
+table {
+  border-collapse: collapse;
+  /* Para evitar doble borde en las celdas */
+  width: 100%;
+  /* Opcional: Ajusta el ancho de la tabla */
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--stone150);
+  /* Aplica el borde inferior */
+  padding: 8px;
+  /* Añade espacio dentro de las celdas */
+  text-align: left;
+  /* Alinea el texto a la izquierda */
+}
+
+th {
+  background-color: #f2f2f2;
+  /* Color de fondo opcional para las cabeceras */
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--stone100);
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+  color: var(--stone900);
+}
+
+.title1-spacing {
+  padding: 25px 0;
+}
+
+.text-color {
+  color: var(--stone600);
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7em;
+  color: var(--brown800);
+}
+
+.hr-thin {
+  border: 0;
+  height: 1px;
+  border-top: 1px solid var(--stone150);
+}
+
+ol,
+ul {
+  line-height: 30px;
+  list-style-position: inside;
+  /* list-style-type: circle; */
+
+  padding-left: 20px;
+}
+
+ol.custom-list li::marker {
+  color: var(--brown800); /* Cambia el color de los números */
+  font-weight: bold; /* Opcional: cambia el grosor de la fuente */
+}
+
+ul.custom-list li::marker {
+  color: var(--rose800); /* Cambia el color de los números */
+  font-weight: bold; /* Opcional: cambia el grosor de la fuente */
+}
+
+ul.custom-list-brown li::marker {
+  color: var(--brown800);
+  font-weight: bold;
+}
+
+.outfit-400 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--stone600);
+}
+
+.outfit-600 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.outfit-700 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container {
+  max-width: 850px;
+  border-radius: 10px;
+  height: 1650px;
+  background-color: var(--white);
+  margin: 30px auto;
+  padding: 50px 40px;
+}
+
+.omelette-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.stone900 {
+  color: var(--stone900);
+}
+
+.rose800 {
+  color: var(--rose800);
+}
+
+.background-rose50 {
+  background-color: var(--rose50);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.brown800 {
+  color: var(--brown800);
+}
+
+.attribution {
+  text-align: center;
+  margin: 20px 20px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--stone600);
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    height: 1800px;
+  }
+  ol,
+  ul {
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    height: 2000px;
+    margin: 0;
+  }
+  .attribution {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    height: 2000px;
+    margin: 0;
+  }
+  .attribution {
+    display: none;
+  }
+}
