@@ -18,8 +18,8 @@ This challenge was focus on practicing HTML, CSS and responsive web development.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/mpcevallos/recipe_solution](https://github.com/mpcevallos/recipe_solution)
+- Live Site URL: [https://recipepage-frontendmentor.netlify.app/](https://your-live-site-url.com)
 
 ## My process
 
