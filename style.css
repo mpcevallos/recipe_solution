@@ -134,9 +134,9 @@ ul.custom-list-brown li::marker {
 }
 
 .container {
-  max-width: 850px;
+  width: 850px;
   border-radius: 10px;
-  height: 1650px;
+  height: 1700px;
   background-color: var(--white);
   margin: 30px auto;
   padding: 50px 40px;
@@ -175,33 +175,33 @@ ul.custom-list-brown li::marker {
   color: var(--stone600);
 }
 
-@media screen and (max-width: 1440px) {
-  .container {
-    height: 1800px;
-  }
-  ol,
-  ul {
-    line-height: 35px;
-  }
-}
-
 @media screen and (max-width: 850px) {
   .container {
-    height: 2000px;
+    width: auto;
+    height: auto;
     margin: 0;
+    background-color: var(--white);
   }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    width: auto;
+    height: auto;
+    margin: 0;
+    background-color: var(--white);
+  }
+
   .attribution {
     display: none;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
   .container {
-    max-width: 375px;
-    height: 2000px;
+    width: 375px;
+    height: auto;
     margin: 0;
-  }
-  .attribution {
-    display: none;
+    background-color: var(--white);
   }
 }
