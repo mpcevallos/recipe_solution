@@ -135,6 +135,7 @@ ul.custom-list-brown li::marker {
 
 .container {
   width: 850px;
+  width: 90%;
   min-height: 1700px;
   border-radius: 10px;
   background-color: var(--white);
@@ -200,8 +201,21 @@ ul.custom-list-brown li::marker {
 @media screen and (max-width: 320px) {
   .container {
     width: 375px;
+    width: 100%;
     height: auto;
     margin: 0;
     background-color: var(--white);
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 100%; /* ancho completo en móviles */
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 33.3%; /* ancho relativo en desktop */
   }
 }
