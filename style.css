@@ -139,7 +139,7 @@ ul.custom-list-brown li::marker {
   min-height: 1700px;
   border-radius: 10px;
   background-color: var(--white);
-  margin: 30px auto;
+  margin: 120px auto;
   padding: 50px 40px;
 }
 
@@ -216,6 +216,6 @@ ul.custom-list-brown li::marker {
 
 @media (min-width: 1440px) {
   .container {
-    width: 20%; /* ancho relativo en desktop */
+    width: 28%; /* ancho relativo en desktop */
   }
 }
