@@ -81,6 +81,11 @@ h2 {
   color: var(--brown800);
 }
 
+.small-heading {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
 .hr-thin {
   border: 0;
   height: 1px;
@@ -216,6 +221,6 @@ ul.custom-list-brown li::marker {
 
 @media (min-width: 1440px) {
   .container {
-    width: 28%; /* ancho relativo en desktop */
+    width: 40%; /* ancho relativo en desktop */
   }
 }
