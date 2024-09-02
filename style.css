@@ -221,6 +221,6 @@ ul.custom-list-brown li::marker {
 
 @media (min-width: 1440px) {
   .container {
-    width: 40%; /* ancho relativo en desktop */
+    width: 45%; /* ancho relativo en desktop */
   }
 }
